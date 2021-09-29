@@ -21,7 +21,6 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
 }
 /*general styles*/
 html{
@@ -97,8 +96,9 @@ nav a{
 
 .mid{
     text-align: center;
-    margin-left:2%;
-    margin-right:2%;
+    margin:0 3%;
+    font-size: 20px;
+    padding:1%;
 }
 .midpara{
     background-color: #DDB9A3;
@@ -120,11 +120,10 @@ nav a{
 /*footer*/
 
 .foot img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100vw;
-    
+    position: relative;
+    margin: auto;
+    max-height: 300px;
+    width: 100%;
   }
 .foot{
     background-color: #F9E7DC;
